@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;color: #666;}
+li{list-style: none;}
+body,html{height: 100vh;width: 100vw;background: #EBEBEB;}
+body{display: -webkit-box;-webkit-box-orient:vertical ;overflow: hidden;}
+header{height: 13.333vw;width: 100%; background:#D9434E;line-height:13.333vw ;}
+.head{height: 100%; width: 100%; float: left;}
+.head a{width: 33.33%;font-size: 0.30rem;float: left;color: #fff;}
+.head .fan{text-align: left;margin-left: 0.2rem;}
+.head .fan1{text-align: center;}
+.head .fan2{text-align: right;width: 28%;font-size: 0.54rem;}
+.head .fan2 .iconfont{font-size: 0.54rem;}
+section{height: auto; width: 100%;-webkit-box-flex: 1;overflow: auto;padding-bottom: 0.5rem;}
+
+section .bude{height: auto;width: 100%;background: #fff;margin-top: 0.2rem;}
+section .bude .item{height: 1rem; width: 100%;font-size: 0.30rem;}
+section .bude .item span{font-size: 0.30rem;padding-left: 0.2rem;line-height: 1rem; float: left;}
+section .bude .bue{height: 0.8rem; background: #ccc;width: 100%;font-size: 0.3rem; line-height: 0.8rem;}
+
+
+
+.foote{font-size: 0.24rem;height: 0.7rem; width: 100%; margin: 0.2rem 0;background: #fff;line-height: 0.7rem;float: left;}
+.foote .item a{ margin: 0 0.2rem;color: #666666;}
+.foote .top{float: right;margin-right: 0.2rem;color: #A9A9A9;}
+.foote .top .iconfont{font-size: 0.30rem;}
+.nava{font-size: 0.24rem;text-align: center;height: 0.6rem; line-height: 0.6rem;color: #999; float: left;}
+.nava .dian{margin: 0 0.1rem;}
+footer{height:1.3rem; width: 100%;background:#fff;overflow: hidden;}
+
+footer .shou{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #989898;height: 100%;}
+footer .shou2{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;background: #D9434E;}
+footer .shou i{display: block;text-align: center;font-size: 0.40rem;}

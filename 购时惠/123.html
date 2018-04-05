@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script>
+			$(function(){
+				$.getJSON('http://www.goushihui168.com/mobile/index.php?c=index',function(res){
+                      console.log(res)
+                  
+				})
+				
+				/*$.ajax({
+					type:"post",
+					url:"http://m.womai.com/activity/activityListJson.action?sid=-2&_=1484291100631",
+					async:true,
+					type:"json",
+					success:function(res){
+						console.log(res)
+					}
+					
+				});*/
+			})
+		</script>
+		<style>
+			#bue{width: 100%;}
+			#bue div{float: left;}
+			p{font-size: 14px;height: 50px; width:50px; margin: 0 auto;} 
+			p:hover{font-weight: 600;color: #DF5000;}
+		</style>
+	</head>
+	<body>
+		<p>首页</p>
+	</body>
+</html>

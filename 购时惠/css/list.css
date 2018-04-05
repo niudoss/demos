@@ -1,0 +1,38 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;color: #666;}
+li{list-style: none;}
+body,html{height: 100vh;width: 100vw;background: #EBEBEB;}
+body{display: -webkit-box;-webkit-box-orient:vertical ;overflow: hidden;}
+header{height: 13.333vw;width: 100%; background:#D9434E;line-height:13.333vw ;}
+.head{height: 100%; width: 100%; float: left;}
+.head a{width: 33.33%;font-size: 0.30rem;float: left;color: #fff;}
+.head .fan{text-align: left;margin-left: 0.2rem;}
+.head .fan1{text-align: center;}
+.head .fan2{text-align: right;width: 28%;font-size: 0.54rem;}
+.head .fan2 .iconfont{font-size: 0.54rem;}
+section{height: auto; width: 100%;-webkit-box-flex: 1;overflow: auto;padding-bottom: 0.5rem;}
+
+section .butt{height:auto; width: 100%; background: #fff;}
+section .butt .list{height: 2.3rem; width: 100%;border-bottom: 1px solid #ccc;}
+section .butt .list dt{height: 1.7rem; width: 24%;float: left; }
+.butt .list dt img{height: 1.7rem; width: 100%; }
+.butt .list dd{font-size: 0.24rem; float: left;padding-left: 5%;}
+.butt .list .dd1{width: 71%;line-height: 0.5rem;}
+.butt .list .dd2{width: 71%;line-height: 0.6rem;color: #BD2C00;}
+
+.butt .list .dd3{width: 71%;}
+.butt .list .dd3 span{height: 0.5rem;width: 0.5rem;float: left;background: #00f;background: url(../img/bg.png) no-repeat; background-size:0.5rem 0.5rem ;}
+
+
+
+.foote{font-size: 0.24rem;height: 0.7rem; width: 100%; margin: 0.2rem 0;background: #fff;line-height: 0.7rem;float: left;}
+.foote .item a{ margin: 0 0.2rem;color: #666666;}
+.foote .top{float: right;margin-right: 0.2rem;color: #A9A9A9;}
+.foote .top .iconfont{font-size: 0.30rem;}
+.nava{font-size: 0.24rem;text-align: center;height: 0.6rem; line-height: 0.6rem;color: #999; float: left;}
+.nava .dian{margin: 0 0.1rem;}
+footer{height:1.3rem; width: 100%;background:#fff;overflow: hidden;}
+
+footer .shou{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #989898;height: 100%;}
+footer .shou2{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #666;background: #fff;height: 100%;}
+footer .shou i{display: block;text-align: center;font-size: 0.40rem;}

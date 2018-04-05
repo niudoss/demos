@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;color: #666;}
+li{list-style: none;}
+body,html{height: 100vh;width: 100vw;background: #EBEBEB;overflow: hidden;}
+body{display: -webkit-box;-webkit-box-orient:vertical ;}
+.head{height: 13.333vw;width: 100%; background:#D9434E;}
+.logo{height: 13.333vw;width:100%;background: url(../img/logo.png) no-repeat 0.1rem 0.1rem;background-size:2rem auto;line-height: 13.333vw; }
+.logo .text{float: right;height:0.55rem; width: 3.2rem;margin-top: 0.15rem;border: 0;}
+.logo .iconfont{float: right; font-size: 0.5rem;text-align: center;margin:0 0.15rem;color: #fff;font-weight: 600;}
+section{height: auto; width: 100%;-webkit-box-flex: 1;overflow: auto;padding-bottom: 0.5rem;}
+#banner{height:3rem;width: 100%; }
+.sild{height:3rem;width: 100%;}
+.sild img{height:3rem;width: 100%;}
+.nave{height:2.5rem;width: 100%; border-bottom:1px solid #ccc ;background: #fff;}
+.nave a{float: left; text-align: center;width:25%;height: 1.25rem;font-size: 0.20rem;color: #666;}
+.nave i{display: block; height: 0.75rem; width: 0.75rem; margin: 0.1rem auto 0.1rem; background:; border-radius: 0.05rem;}
+ .nave i img{height: 0.75rem; width: 0.75rem;border-radius: 0.05rem;}
+.menu{height: 3.2rem; margin-top: 0.2rem; width:100%; background: #fff; }
+.menu-a{height: 3.2rem;width: 50%; float: left;}
+.menu img{height: 100%;width: 100%;}
+.menu-b{height: 1.6rem;width:50%; float: left;}
+.menu-c{height: 1.6rem;width: 50%;float: left; }
+.seaca_1{height:3.2rem; margin: 0.2rem 0; width:100%;float: left;}
+.seaca_1 img{height:100%; width:100%; }
+#box{width: 100%; margin-top: 0.2rem;height: auto;background:#fff;}
+#box .tite{height: 0.7rem; width: 100%; font-size: 0.20rem; color: red;line-height:0.7rem ;text-align: center;float: left;background: #fff;}
+#box .mm{width: 46%;height:4.6rem;background: #fff;margin: 5% 2%;float: left;}
+.mm img{height: 2.5rem;width: 100%;border-radius:0.3rem ;}
+.mm p{width: 96%;font-size: 0.24rem;padding:0 2%;height: 0.5rem;}
+.mm span{width: 96%;font-size: 0.35rem;padding:6% 2% 0;color:#D9434E ;float: left;margin-top: 0.5rem;}
+.foote{font-size: 0.24rem;height: 0.7rem; width: 100%; margin: 0.2rem 0;background: #fff;line-height: 0.7rem;float: left;}
+.foote .item a{ margin: 0 0.2rem;color: #666666;}
+.foote .top{float: right;margin-right: 0.2rem;color: #A9A9A9;}
+.foote .top .iconfont{font-size: 0.30rem;}
+.nava{font-size: 0.24rem;text-align: center;height: 0.6rem; line-height: 0.6rem;color: #999; float: left;}
+.nava .dian{margin: 0 0.1rem;}
+footer{height:1.3rem; width: 100%;background:#fff;}
+footer a .shou1{color: #fff;}
+footer .shou {font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #989898;height: 100%;}
+footer .shou1{background: #D9434E;}
+footer .shou1 a{color: #fff;}
+footer .shou i{display: block;text-align: center;font-size: 0.40rem;}

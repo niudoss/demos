@@ -1,0 +1,36 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;color: #666;}
+li{list-style: none;}
+body,html{height: 100vh;width: 100vw;background: #EBEBEB;}
+body{display: -webkit-box;-webkit-box-orient:vertical ;overflow: hidden;}
+header{height: 13.333vw;width: 100%; background:#D9434E;line-height:13.333vw ;}
+.head{height: 100%; width: 100%; float: left;}
+.head a{width: 33.33%;font-size: 0.30rem;float: left;color: #fff;}
+.head .fan{text-align: left;margin-left: 0.2rem;}
+.head .fan1{text-align: center;}
+.head .fan2{text-align: right;width: 28%;font-size: 0.54rem;}
+.head .fan2 .iconfont{font-size: 0.54rem;}
+section{height: auto; width: 100%;-webkit-box-flex: 1;overflow: auto;}
+section .box{height: auto; width: 100%;background: #fff;font-size: 0.25rem;}
+section .box li{height:4.5rem; width: 96%; margin: 0.2rem auto;}
+section .box li .naei{height: 0.5rem; width: 96%; margin: 0 auto;border-bottom: 1px solid #ccc;font-weight: 100;font-size: 0.28rem;line-height: 0.5rem;}
+ section .box li img {height: 2rem; width: 30%;float: left;}
+section .box li p{height: 0.5rem; width: 90%; margin-left: 5%;font-size: 0.30rem;margin-top: 0.15rem;}
+section .box li .p1{height: 0.67rem;}
+section .box li .p5{height: 0.5rem; width: 0.5rem; float: right;text-align: center;line-height: 0.5rem;}
+.box li .p5 .iconfont{font-size: 0.50rem;color: #666;}
+section .zon{height: 1rem; width: 95%; background: #888;font-size: 0.5rem;text-align: right;padding-right: 5%;line-height: 1rem;color: #fff;}
+section .zon span{color: #BD2C00;font-weight: 600;font-size: 0.6rem;}
+section .p4 .lef,section .p4 .rig{display: inline-block;height: 0.5rem; width: 0.5rem; background: #969896;text-align: center; line-height: 0.5rem;font-size: 0.5rem;color: #FF0000;float: left;}
+section .p4 .cent{height: 0.5rem; width: 0.5rem;border: 0;text-align: center; line-height: 0.5rem;font-size: 0.32rem;float: left;}
+.box li .fae{width: 70%; height: auto;float: left; }
+
+
+
+
+
+footer{height:1.3rem; width: 100%;background:#fff;overflow: hidden;}
+
+footer .shou{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #989898;height: 100%;}
+footer .shou2{font-size: 0.32rem;float: left;width: 25%;text-align: center; padding-top:0.2rem;color: #fff;background: #D9434E;}
+footer .shou i{display: block;text-align: center;font-size: 0.40rem;}
